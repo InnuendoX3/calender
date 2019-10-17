@@ -1,3 +1,7 @@
+body {
+   background-color: #2E4372
+}
+
 .week-item {
    display: flex;
 }
@@ -9,6 +13,8 @@
    justify-content: center;
    align-items: center;
    font-weight: bold;
+   background-color: #061539;
+   color: #7887AB;
 }
 
 .day-item {
@@ -17,7 +23,12 @@
    width: 70px;
    justify-content: center;
    align-items: center;
+   background-color: #4F628E;
 
    /* border: 1px solid red; */
 
+}
+
+#calender-container {
+   font-family: "Zilla Slab", serif;
 }
