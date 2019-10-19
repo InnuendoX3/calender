@@ -23,8 +23,8 @@ body {
    width: 70px;
    justify-content: center;
    align-items: center;
-   background-color: #4F628E;
-   transition: background-color 300ms;
+   background-color: #2E4372;
+   transition: background-color 300ms ease;
    /* border: 1px solid red; */
 
 }
@@ -38,4 +38,8 @@ body {
 
 #calender-container {
    font-family: "Zilla Slab", serif;
+   width: 490px;
+   padding: 8px;;
+   border-radius: 10px;
+   box-shadow: 0 15px 25px #03030380;
 }
