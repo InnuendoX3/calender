@@ -2,6 +2,15 @@ body {
    background-color: #2E4372
 }
 
+.calender-title {
+   background-color: #2E4372;
+   font-weight: bold;
+   font-size: 26px;
+   text-align: center;
+   padding: 15px;
+   
+}
+
 .week-item {
    display: flex;
 }
@@ -24,16 +33,23 @@ body {
    justify-content: center;
    align-items: center;
    background-color: #2E4372;
-   transition: background-color 300ms ease;
+   border: 1px solid #2E4372;
+   /* transition: border 300ms ease; */
+   /* border: 1px solid red; */
+}
+
+
+.day-item:hover {
+ /*  background-color: #7887AB; */
+   border: 1px solid #7887AB;
+
    /* border: 1px solid red; */
 
 }
 
-.day-item:hover {
-   background-color: #7887AB;
-
-   /* border: 1px solid red; */
-
+.event {
+   background-color: #162956;
+   color: #7887AB;
 }
 
 #calender-container {
