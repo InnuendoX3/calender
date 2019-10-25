@@ -59,3 +59,32 @@ body {
    border-radius: 10px;
    box-shadow: 0 15px 25px #03030380;
 }
+
+
+
+@media screen and (max-width: 560px) {
+   #main-container {
+      margin-top: 20px;
+   }
+
+   #event-container {
+      width: 320px;
+      height: 300px;
+   }
+
+   #calender-container {
+      width: 320px;
+   }
+
+   .header-item {
+      height: 43px;
+      width: 43px;
+      font-size: 18px;
+   }
+   
+   .day-item {
+      height: 43px;
+      width: 43px;
+      font-size: 18px;
+   }
+}
